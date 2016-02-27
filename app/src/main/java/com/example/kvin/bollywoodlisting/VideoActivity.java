@@ -19,7 +19,7 @@ public class VideoActivity extends YouTubeBaseActivity implements YouTubePlayer.
 
 
     private String GOOGLE_API_KEY ="AIzaSyBns4VsOw5qzvWGJyC4RnLLwvDJihtOJAI";
-    private String YOUTUBE_VIDEO_ID ="xxx3Fn7EowU";
+    private String YOUTUBE_VIDEO_ID ="";
 
 
 
@@ -39,7 +39,7 @@ public class VideoActivity extends YouTubeBaseActivity implements YouTubePlayer.
 
 
 
-        //YOUTUBE_VIDEO_ID = getVideoId(url);
+        YOUTUBE_VIDEO_ID = getVideoId(url);
 
 
     }
